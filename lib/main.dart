@@ -193,7 +193,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   print(onValue);
                 });
               },
-            )
+            ),
+            Image.asset('images/sgu_view.jpg'),
           ],
         ),
       ),
