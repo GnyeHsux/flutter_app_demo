@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+//引入依赖包
+import 'package:english_words/english_words.dart';
 
 void main() => runApp(MyApp());
 
@@ -6,6 +8,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    final wordPair = new WordPair.random();
     return MaterialApp(
       title: 'Flutter小样程序',
       theme: ThemeData(
@@ -24,7 +27,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "new_page": (context) => NewRoute(),
         "second_page": (context) => SecondRoute(),
-        "echo_page": (context) => EchoRoute('固定内容balabala'),
+        "echo_page": (context) => EchoRoute('固定内容：->' + wordPair.toString()),
       },
     );
   }
