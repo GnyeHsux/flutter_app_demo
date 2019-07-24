@@ -5,7 +5,7 @@
   "data_sources": [
     {
       "name": "AVMOO JP MA",
-      "link": "https://avmoo.com",
+      "link": "https://avmoo.asia",
       "legacies":[
         "avmoo.net",
         "avmoo.pw",
@@ -23,7 +23,7 @@
     },
     {
       "name": "AVMOO JP Bu",
-      "link": "https://avsox.com",
+      "link": "https://avsox.asia",
       "legacies":[
         "javkey.com",
         "javfee.com",
